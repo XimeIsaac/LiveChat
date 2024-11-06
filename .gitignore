@@ -1,7 +1,5 @@
 # Node.js
 node_modules/
-npm-debug.log
-yarn-error.log
 package-lock.json
 
 # TypeScript
@@ -9,15 +7,3 @@ package-lock.json
 
 # Environment variables
 .env
-
-# Logs
-logs
-*.log
-
-# IDEs
-.vscode/
-.idea/
-
-# Operating System files
-.DS_Store
-Thumbs.db

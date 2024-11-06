@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.ts",
-    "build": "tsc && rsync -a src/views/ dist/views",
+    "build": "tsc && ncp  src/views/ dist/views",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -16,12 +16,13 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "nodemon": "^3.1.7",
+    "rsync": "^0.6.1",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/socket.io": "^3.0.2",
+    "ncp": "^2.0.0",
     "ts-node": "^10.9.2"
   }
 }
-

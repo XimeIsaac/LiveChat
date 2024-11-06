@@ -1,19 +1,16 @@
-import { Router } from 'express'
-import path from 'path'
+import { Router } from 'express';
+import path from 'path';
 
 const router = Router();
 
-router.get('', (req, res) => {
-    res.send('api works!');
-})
-
+// Ruta para la página principal
 router.get('/home', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'static', 'home.html'));
+    res.sendFile(path.join(__dirname, '..', 'views', 'home.html'));
+});
 
-})
-
+// Ruta para el canal
 router.get('/canal/:id', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'static', 'canal.html'));
-})
+    res.sendFile(path.join(__dirname, '..', 'views', 'canal.html'));
+});
 
 export default router;
