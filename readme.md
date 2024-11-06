@@ -3,7 +3,7 @@
 ## About The Project
 This practice involves the development of an online chat that allows the sending of messages in real time through the implementation of Socket.io.
 
-#### Click here to visualize -> [Try Live Chat](URL) !!
+#### Click here to visualize -> [Try Live Chat](https://livechat-d5dz.onrender.com) !!
 
 ![Product Name Screen Shot](src/assets/images/git.png)
 
@@ -16,7 +16,7 @@ This practice involves the development of an online chat that allows the sending
 * TypeScript
 * Nodemon
 * Dotenv
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ## Getting Started
@@ -30,7 +30,7 @@ This is an example of how to list things you need to use the software and how to
   node -v
   ```
 
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Installation
 
@@ -47,7 +47,7 @@ _Below you will find the installation instructions._
    ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -70,8 +70,6 @@ To use this project you will need to do the following.
 
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
