@@ -2,8 +2,11 @@
 node_modules/
 package-lock.json
 
+
 # TypeScript
 *.tsbuildinfo
 
 # Environment variables
 .env
+
+/dist
