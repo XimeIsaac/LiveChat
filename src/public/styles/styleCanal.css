@@ -1,0 +1,112 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-image: radial-gradient(#0087e8 0.5px, #eeee 0.5px);
+    background-size: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6vh;
+    color: #333;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+#messages {
+    width: 80vw;
+    height: 60vh;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1vh;
+    overflow-y: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.message {
+    padding: 1vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    display: block;
+    line-height: 1.5;
+}
+
+.message::first-line {
+    display: block;
+    margin-bottom: 0.2vh; 
+}
+
+.my-message {
+    background-color: #d3e5ff; 
+    align-self: flex-end;
+}
+
+.other-message {
+    background-color: #f3f8da; 
+    align-self: flex-start;
+}
+
+.notification {
+    padding: 1vh;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 2vh;
+    color: #666;
+    text-align: center;
+    width: 100%;  
+    box-sizing: border-box; 
+    margin-bottom: 1vh; 
+}
+
+div {
+    padding-top: 2vh;
+    width: 80vw;
+    display: flex;
+    margin-top: 1vh;
+}
+
+#input {
+    flex: 1;
+    padding: 1vh;
+    font-size: 2vh;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+#trigger {
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    background-color: #0087e8;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#trigger:hover {
+    background-color: #006bb5;
+}
